@@ -5,9 +5,61 @@
 
 .download {
   padding: 0.5rem;
-  background-image: linear-gradient(90deg, green, rgb(1, 73, 1));
+  background-image: linear-gradient(90deg, rgb(0, 21, 128), rgb(1, 21, 205));
   border: none;
   outline: none;
+}
+
+.hero-section {
+  background: url("../assets/night.jpg");
+  background-position: left left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 12% 0;
+  opacity: 0.95;
+}
+.hero-section h1, .hero-section .h1, .hero-section p {
+  text-shadow: 0px 1px 3px black;
+}
+.hero-section button {
+  background-image: linear-gradient(90deg, blue, darkblue);
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+footer .social-icon {
+  display: inline-flex;
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+  text-decoration: none;
+  color: #333;
+  justify-content: center;
+  align-items: center;
+}
+footer .social-icon:hover {
+  color: rgb(97, 97, 207);
+}
+footer .subscribe-group {
+  margin-top: 1rem;
+}
+footer .form-control {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+footer .form-control:hover,
+footer .form-control:focus {
+  outline: 0px !important;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+}
+footer button {
+  background-image: linear-gradient(90deg, blue, darkblue);
 }
 
 /*!
