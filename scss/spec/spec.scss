@@ -7,14 +7,14 @@
             position: relative;
             margin-bottom: 30px;
         }
-        .li:before{
+        .li::before{
             font-family: "Font Awesome 5 Free";
             font-size: 2rem;
             content: "\f058";
             position: absolute;
             color: black;
-            left: -50px;
-            top: -2px;
+            margin-left: -50px;
+            margin-top: -2px;
         }
     }
     .brands{

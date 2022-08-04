@@ -1,0 +1,13 @@
+.custom-card{
+    background-color: #efefef;
+    padding: 4rem 2rem;
+}
+@media  (max-width: 991px){
+    .custom-card:last-child{
+        margin-top: 20px !important;
+    }
+}
+.quote-section{
+    margin-top: 90px;
+    margin-bottom: 120px;
+}
